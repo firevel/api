@@ -1,0 +1,24 @@
+{
+    "name": "firevel/api",
+    "description": "A Laravel package offering base classes for efficient RESTful API development.",
+    "keywords": ["laravel", "firevel", "api"],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Michael Slowik",
+            "email": "michael.slowik@firevel.com"
+        }
+    ],
+    "require": {
+        "firevel/filterable": "^0.0.1",
+        "firevel/firebase-authentication": "^2.0",
+        "firevel/sortable": "^0.0.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Firevel\\Api\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
