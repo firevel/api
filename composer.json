@@ -11,9 +11,9 @@
         }
     ],
     "require": {
-        "firevel/filterable": "^0.0.1",
+        "firevel/filterable": "0.0.*",
         "firevel/firebase-authentication": "^2.0",
-        "firevel/sortable": "^0.0.1",
+        "firevel/sortable": "0.0.*",
         "spatie/laravel-fractal": "^6.0"
     },
     "autoload": {
