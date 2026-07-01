@@ -11,7 +11,7 @@
         }
     ],
     "require": {
-        "firevel/filterable": "^0.0.16",
+        "firevel/filterable": "^1.0.0 || 0.0.*",
         "firevel/firebase-authentication": "^2.0 || ^3.0",
         "firevel/includes": "^0.0.1",
         "firevel/sortable": "^0.1.0",
